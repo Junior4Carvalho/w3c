@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family:sans-serif
+
+}
+
+header{
+
+    position: fixed;
+    width: 100%;
+    overflow-x: hidden;
+    z-index: 2;
+    top: 0;
+
+}
+
+.top{
+
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 17px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    
+
+}
+
+.rside{
+    margin-right: 20px;
+
+}
+
+.lside, .rside{
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.lside a, .rside a{
+
+    color: black;
+    margin: 3px;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 10.5pt;
+   
+ 
+    
+}
+
+.lside a:hover, .rside a:hover{
+
+    
+    color: white;
+    background-color: #04AA6D !important;
+    
+}
+
+
+.nav{
+
+    background-color: rgb(38, 37, 37);
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+    width: 100%;
+    height: 30px;
+
+}
+
+.lnav, .rnav{
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+.lnav a, .rnav a{
+
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 10pt;
+    text-align: center;
+    
+ 
+    
+}
+
+.lnav a:hover, .rnav a:hover{
+
+    background-color: #000000 !important;
+    
+}
+
+.nav img{
+    width: 50px;
+}
+
+
+
+.inf{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    z-index: 1;
+    top: 150px;
+    margin: 30px;
+    
+    
+
+
+}
+
+#css{
+
+    font-size: 31pt;
+
+}
+
+#flex{
+    font-size: 24pt;
+}
+
+.inf button{
+
+
+    border: none;
+    margin: 10px;
+    background-color: #04AA6D;
+    color: white;
+    border-radius: 5px;
+    width: 120px;
+    height: 45px;
+    font-size: 14pt;
+    align-self: stretch;
+
+}
+
+
